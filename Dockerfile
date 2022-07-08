@@ -1,5 +1,5 @@
 # our base image
-FROM python:3
+FROM python:3.10
 
 # app working directory
 WORKDIR /usr/src/app
