@@ -9,7 +9,7 @@ WORKDIR /usr/src/app
 COPY . . 
 
 #Install dependencies
-RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 
 # tell the port number the container should expose
