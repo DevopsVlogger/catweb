@@ -6,10 +6,10 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-    "https://giphy.com/clips/bestfriends-cat-cats-kitty-IsDjNQPc4weWPEwhWm",
-    "https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-ynmvLvIVxxofJuk9MO",
-    "https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-cwQCUhKible5mGrtMO",
-    "https://giphy.com/clips/studiosoriginals-good-morning-i0zTwaJzcj2LxCmY5P"
+    "https://c.tenor.com/ZhfMGWrmCTcAAAAM/cute-kitty-best-kitty.gif",
+    "https://c.tenor.com/7JbbkdTGA38AAAAd/cute-cat.gif",
+    "https://c.tenor.com/cS2O4bhrjLkAAAAd/happy-pleased.gif",
+    "https://64.media.tumblr.com/bf1931d6ea2d4f204cb23f0e97a4a5e3/9a1e97b225707d24-b1/s640x960/b65654e3cf1770aa933800124ff9cc999a982965.gif"
 ]
 
 @app.route('/')
